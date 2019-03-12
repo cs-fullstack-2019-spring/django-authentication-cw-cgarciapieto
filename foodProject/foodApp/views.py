@@ -15,7 +15,7 @@ def newForm(request):
     context = {
         "form": form
     }
-    return render('foodApp/fitness.html', context)
+    return render(request,'foodApp/fitness.html', context)
 
 # post and creates a user in the database
 def newPost(request):
